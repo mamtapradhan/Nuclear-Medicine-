@@ -1,0 +1,32 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Current Challenges and Advancement of PET}
+\author{Mamta Pradhan}
+\date{January 2022}
+
+\begin{document}
+\maketitle
+In this term paper will highlight the following aspects:
+\begin{itemize}
+    \item Brief introduction about the positron emission tomography
+\end{itemize}
+\begin{itemize}
+    \item Physics of Positron Emission Tomography
+\end{itemize}
+\begin{itemize}
+    \item New Detector Technology
+\end{itemize}
+\begin{itemize}
+    \item Improved Data Acquisition System
+\end{itemize}
+\begin{itemize}
+    \item 	Application Development 
+\end{itemize}
+\begin{itemize}
+    \item Multimodality Imaging Tomography
+\end{itemize}
+Positron emission tomography (PET) is, imaging technique, combination of nuclear medicine and biochemical analysis which determines the metabolic activity of cells of human body tissue. This technique is used for evaluating the function of body tissue or organ in the field of cardiovascular department such as different heart conditions, oncology department such as cancer treatment, cancer screening in neurology department such as brain disorders. This technique helps to take picture of biochemical changes happening within our body. Currently dual modality of imaging techniques such techniques are PET –CT ,PET-MRI this technique gives us to anatomical(structure) with physiological (functional) information of cells of body tissue. It gives the information about the detection, classification, staging, prognosis, treatment planning of disease with higher accuracy and sensitive. 
+
+Motive to choosing this topic is, in this era different type advanced imaging techniques are used in nuclear medicine such as dual modality techniques but different type of problem addressed in this techniques, reviewed about the problems, advantages, disadvantages, challenges and advancement of techniques for clinical and preclinical application . In this term paper, firstly I will give the brief describe about the positron emission tomography and physics. Secondly describe about the detector technology which is used to improve quality of the PET images required array of detectors. After that I will give brief introduction about the improvement of data acquisition system. After that application development, In this section describe about the acquiring dynamic images, dosimetry and image monitoring after that I will discuss about multispecialty imaging technique and Positron emission tomography (PET): new applications and their advantages and disadvantages for implementation.
+\end{document}
