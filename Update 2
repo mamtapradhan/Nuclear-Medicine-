@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Current Challenges and Advancement of PET}
+\author{Mamta Pradhan (Roll No.- 18111033)}
+\date{January 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Abstract}
+Positron emission tomography (PET) imaging technique is based on detecting two time-coincident high energy photons from the emission of a positron-emitting radioisotope. The physics of the emission, and the detection of the coincident photons, give PET imaging unique capabilities for both very high sensitivity and accurate estimation of the in vivo concentration of the radiotracer. PET imaging has been widely adopted as an important clinical modality for oncological, cardiovascular, and neurological applications. In this term paper, firstly I will discuss about the PET after that physics of PET, new detector technology, application and application development, multi modality imaging, and conclusion of positron emission tomography.
+
+\section{Introduction}
+Positron emission tomography (PET) is a type of nuclear medicine procedure that measures metabolic activity of the cells of body tissues. PET is actually a combination of nuclear medicine and biochemical analysis. Used mostly in patients with brain or heart conditions and cancer, PET helps to visualize the biochemical changes taking place in the body, such as the metabolism (the process by which cells change food into energy after food is digested and absorbed into the blood) of the heart muscle.
+
+PET is a type of nuclear medicine procedure, this means that a tiny amount of a radioactive substance, called a radiopharmaceutical (radionuclide or radioactive tracer), is used during the procedure to assist in the examination of the tissue under study. Specifically, PET studies evaluate the metabolism of a particular organ or tissue, so that information about the physiology (functionality) and anatomy (structure) of the organ or tissue is evaluated, as well as its biochemical properties. Thus, PET may detect biochemical changes in an organ or tissue that can identify the onset of a disease process before anatomical changes related to the disease can be seen with other imaging processes such as computed tomography (CT) or magnetic resonance imaging (MRI).
+
+In clinical and preclinical studies, in living structural imaging technique gives useful information. To reveal the real structures of the physiological time-varying processes that explain disease occurrence, it is necessary to combine morphological information within living molecular imaging. Positron emission tomography (PET) imaging probably offers more translational possibilities than any other modality due to its combination of sensitivity and quantitative accuracy. PET is a noninvasive imaging technique that provides physiological information through the injection of radioactive compounds that is radiotracers, detection of radiation, and reconstruction of the distribution of the radiotracer. PET imaging has evolved from an imaging technique used for research to become a standard component of diagnosis and staging in oncology (such as cancer screening) and it is also used for specific neurological and cardiovascular indications. It provides the clinically useful information that about tissue and organ function, and status, through the use of radio labeled molecular imaging agents. The type of information provided depends on the imaging agent and the disease and can include detection, classification, staging, prognosis, treatment planning. 
+
+Merging PET imaging technique with anatomical imaging method such as CT or MRI provides the information about the what is problem is that is from PET and where is problem is that is from CT or MRI. CT or MRI gives the anatomical information that is used to provide the estimates of the quantitative corrections which is needed for this imaging technique. Combination of PET with CT or MRI gives the advancement for this technique which is led for the development and application of new imaging techniques.
+
+In next update, i will discuss about the advantages and disadvantages, application , problem arise in new technology with table and also about physics of PET.
+
+\end{document}
