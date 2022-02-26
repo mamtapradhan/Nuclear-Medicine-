@@ -1,0 +1,95 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphics}
+\usepackage{multicol}
+\usepackage{pgfplots}
+\usepackage{float}
+\usepackage[paper=a4 paper, left=3cm, right=3cm, top=2cm]{geometry}
+\title{Current Challenges and Advancement of PET}
+\author{Mamta Pradhan (Roll No.- 18111033)}
+\date{February 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Abstract}
+Positron emission tomography (PET) imaging technique is based on detecting two time-coincident high energy photons from the emission of a positron-emitting radioisotope. The physics of the emission, and the detection of the coincident photons, give PET imaging unique capabilities for both very high sensitivity and accurate estimation of the in vivo concentration of the radiotracer. PET imaging has been widely adopted as an important clinical modality for oncological, cardiovascular, and neurological applications. In this term paper, firstly I will discuss about the PET after that physics of PET, new detector technology, application and application development, multi modality imaging, and conclusion of positron emission tomography.
+
+\section{Introduction}
+Positron emission tomography (PET) is a type of nuclear medicine procedure that measures metabolic activity of the cells of body tissues. PET is actually a combination of nuclear medicine and biochemical analysis. Used mostly in patients with brain or heart conditions and cancer, PET helps to visualize the biochemical changes taking place in the body, such as the metabolism (the process by which cells change food into energy after food is digested and absorbed into the blood) of the heart muscle.
+
+PET is a type of nuclear medicine procedure, this means that a tiny amount of a radioactive substance, called a radiopharmaceutical (radionuclide or radioactive tracer), is used during the procedure to assist in the examination of the tissue under study. Specifically, PET studies evaluate the metabolism of a particular organ or tissue, so that information about the physiology (functionality) and anatomy (structure) of the organ or tissue is evaluated, as well as its biochemical properties. Thus, PET may detect biochemical changes in an organ or tissue that can identify the onset of a disease process before anatomical changes related to the disease can be seen with other imaging processes such as computed tomography (CT) or magnetic resonance imaging (MRI).
+
+In clinical and preclinical studies, in living structural imaging technique gives useful information. To reveal the real structures of the physiological time-varying processes that explain disease occurrence, it is necessary to combine morphological information within living molecular imaging. Positron emission tomography (PET) imaging probably offers more translational possibilities than any other modality due to its combination of sensitivity and quantitative accuracy. PET is a noninvasive imaging technique that provides physiological information through the injection of radioactive compounds that is radiotracers, detection of radiation, and reconstruction of the distribution of the radiotracer. PET imaging has evolved from an imaging technique used for research to become a standard component of diagnosis and staging in oncology (such as cancer screening) and it is also used for specific neurological and cardiovascular indications. It provides the clinically useful information that about tissue and organ function, and status, through the use of radio labeled molecular imaging agents. The type of information provided depends on the imaging agent and the disease and can include detection, classification, staging, prognosis, treatment planning. 
+
+Merging PET imaging technique with anatomical imaging method such as CT or MRI provides the information about the what is problem is that is from PET and where is problem is that is from CT or MRI. CT or MRI gives the anatomical information that is used to provide the estimates of the quantitative corrections which is needed for this imaging technique. Combination of PET with CT or MRI gives the advancement for this technique which is led for the development and application of new imaging techniques.
+
+\section{Physics of PET imaging}
+The physics that enable PET imaging are based on the emission of a positron by a neutrondeficient radioisotope.fluorine-18 (18F), the most commonly used radioisotope. As the radioisotope decays to a stable state, the emitted positron travels a short distance (typically 1–2 mm) and interacts with an electron; this interaction annihilates both the electron and the positron, thus producing two high-energy photons. The photons travel in opposite directions along an approximately straight line, and can be detected outside the body by the PET scanner.
+The detectors use scintillator crystals coupled to photo-multipliers. 
+\begin{itemize}
+    \item The first limitation in PET imaging is the noise, which is driven by the number of individual 511 keV photons detected. In turn, this is determined by the density of the scintillator, the count-rate capabilities of the scanner, and the amount of radiation injected into the patient. 
+\end{itemize}
+
+\begin{itemize}
+    \item The second limitation is the spatial resolution, which is determined by the variability in estimating the interaction point of the 511 keV photon in the scintillator. In turn, this is affected by the optics of the scintillator, the number of optical photons emitted, and the fidelity of the photomultiplier tubes and associated electronics. These factors impose the noise and resolution characteristics of the PET imaging process.
+\end{itemize}
+
+If two photons are detected in a short-coincidence time window (typically 1–10 ns), the joint detection is called a true-coincidence event for the line of response (LOR) joining the two detectors. More accurately, the parallelepiped joining the two detector elements is called a tube of response. The total number of true-coincidence events detected by the two detector elements will be proportional to the total amount of radiotracer contained in the tube of response. This is the key to PET imaging. Based on this relationship, one can process the coincidence events to accurately reconstruct the distribution of the radioisotope. For time of flight (TOF) PET imaging systems, the differential timing of the detection of the two photons is used to localize the annihilation along the LOR.
+
+\section{Advantages and Disadvantages of PET}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width= 8cm]{1643705642228.jpg}
+    \caption{Advantages and Disadvantages of PET}
+    \label{fig:my_label}
+\end{figure}
+
+\section{New Detector Technology}
+Improvements to the quality of PET images are made by increasing the sensitivity and spatial resolution of the image, which requires an array of detectors that can capture the largest possible fraction of the photons emitted by the target object at the highest possible rate and with the best possible spatial accuracy. In addition, the detectors should possess the highest possible energy resolution to reduce the effects of scattered radiation.
+
+\subsection{Solid-State Photo-detectors}
+This include the different type of photo detector  silicon photomultiplier, multipixel photon counter, single-photon avalanche diode, and avalanche photodiode .The mass production of semiconductor photo-detectors in radiation detector technology  has  enabled new imaging modalities, such as simultaneous PET imaging and MRI (20). Different manufacturers name their photo-detectors differently, depending on the manufacturing process and mode of operation. Above mention photo-detectors, The sum of the signals from all individual diodes is a measurement of the amount of light deposited in the array, and this, in turn, is related to the light produced by the scintillator. These new devices have had important impacts on detector design. They have an improved, effective sensing area in comparison with traditional photomultipliers, the time resolution increases their potential in terms of TOF capabilities, their power requirements are lower, their packaging is more robust and compact, and they are compatible with the high magnetic and electric fields present inside an MR scanner.
+
+\subsection{Digital photon counter (DPC)}
+It is a variant of conventional silicon photomultiplier (Si-PM) detectors, and it operates in a digital mode. The DPC treats the signal from individual photodiodes as the information and, instead of adding them in analog mode, counts them to produce a digital code that is related to the number of photons .In principle, this method should produce noise-free data that are precisely timed with respect to a master clock, thus producing high-resolution measurements of time. These novel characteristics of the DPC have created high expectations about the performance of the PET scanners that use them, and the first commercial clinical systems are appearing.
+
+\subsection{CZT Photo Detector}
+This detector based on the cadmium zinc telluride which does not use scintillators because they directly convert ionizing radiation to charge production, providing higher energy and spatial resolutions than scintillator-based PET detectors. Accordingly, new designs for detectors begin with new scintillator materials because this is the preferred method for detecting annihilation photons. Scintillation crystals produce fluorescent light after being excited by a 511 keV photon that has been scattered by or absorbed into the crystal. The intensity of the pulse of visible light contains information about the energy of the original photon that caused the scintillation. Therefore, annihilation photons can be characterized by detecting and counting the visible light photons with a photo detector. A good scintillator crystal should have high stopping power for 511 keV annihilation photons and high efficiency for converting the energy from the annihilation photon into detectable light; it is also desirable that the resulting light pulse occurs within a very short time, and the intensity should be proportional to the energy of the annihilation photon.
+
+The optical properties of the crystal are also important: The crystal must be transparent to the wavelength of the fluorescent light to avoid self-attenuation, the index of refraction must match that of the photo-detector to optimize the collection of light, and the crystal should be rugged enough to be processed and manipulated during manufacturing.
+
+Modern scintillators produce shorter and more intense light pulses compared with earlier crystals, such as BGO (bismuth germanate), which used to dominate PET-detector technology. BGO has a high density and high atomic number, so the 511 keV photons have a large probability of interacting with the crystal, but the BGO low light production limits the energy resolution of the detector, thus resulting in more scatter in the final image, and its long decay time precludes its use in applications with high count rates. Newer, more luminous, and faster scintillator crystals, such as LSO (lutetium oxyorthosilicate) and LYSO (lutetium yttrium oxyorthosilicate) (4, 5), have been used to build detectors that have better energy resolution and faster light decay times that can reduce undesired effects, such as the piling up of events on the detector, degradation of event timing, or background scatter. These new scintillators also enable clinical TOF PET imaging (6–8), and they are being used in layered combinations (known as phoswichs)—of LSO, LYSO, LuYAP (cerium-doped lutetium yttrium perovskite), GSO (gadolinium oxyorthosilicate), LaBr3:Ce (cerium-doped lanthanum bromide), Ce:GAGG (cerium-doped gadolinium aluminum gallium garnet) (9), and others (10)—in small-animal PET scanners to implement depth of interaction (DOI) corrections on long crystals (11), which increases spatial resolution and reduces parallax error (12).
+
+\section{Drawback of Scintillator}
+A drawback of using scintillator crystals made from lutetium (176Lu) is that it is a radioactive contaminant that produces a natural background coincidence count rate, which increases the noise in low count-rate applications (13). Another drawback to using modern scintillators is their high cost. Alternative ceramic scintillators may ameliorate this limitation (for example, BaAl4O7:Eu2+); although they are too slow for PET time-coincidence imaging, they compete with currently used scintillator crystals when used for single-photon imaging (14). The mass production of transparent, ceramic scintillators may make them more affordable than current scintillators, and this may open new opportunities to confront the design of next-generation PET scanners.
+
+\section{Improved Data Acquisition System}
+Signals coming from PET detectors which are carry the information about the detected diseases or some activity in the characteristics of the electrical pulse which is generated by the charge collection. After determining the precise timing of the pulse’s arrival, the pulse’s waveform is integrated and digitized that signals. In this process, the full description of the original shape of the pulse is lost. However, it is known that the shape of the pulse contains additional information that could be extracted and used to improve the processing of the pulse and, in turn, the quality of the image reconstructed from the ensemble of pulses. Now different type of analog to digital converter that can be used to implement waveform digitization of the detector pulses, from that, researchers can derive additional information that can be used by the image-reconstruction algorithms. This extra information can also be used, for example, to remove pulse pileups in situations with a high count rate, in TOF imaging, and to implement DOI correction (29) (30) (31).
+
+Time over threshold converter is the advancement of analog to digital converter which obtains accurate information about timing and energy by converting the charge measurement to a time measurement. This technique allows for significant simplification of the electronics by reducing circuitry and power consumption characteristics that become relevant to applications such as, MRI that is compatible with PET detectors, or largescale systems with a high number of channels. One of the drawbacks of the time-overthreshold method has been the intrinsic nonlinearity of the method, although recent implementations have compensated for that inconvenience, improving its performance to the point where it can be used in TOF systems.
+
+In TOF PET imaging, the measurement of the precise difference in the arrival times of the two 511 keV annihilation photons can be used to reduce uncertainty about the location of the annihilation locus and thus improve image quality. The offset in distances from the annihilation point to the detectors causes a difference in detection times, described by Δt = difference between t2 and t1. This information enables localization of the annihilation to a limited region between the two detectors.
+
+\section{Challenges in TOF PET}
+Currently, detectors and instrumentation technology in clinical scanners can provide a timing resolution no better than 200ps, which translates into a 3 cm spatial difference that is not small enough to allow direct reconstruction of a high-resolution image. However, when TOF measurements are fed into the reconstruction algorithms as a priori information, the image quality is significantly improved.
+
+
+Another challenge of current detector technology is the parallax error. This appears when attempts are made to increase the sensitivity of a PET system by reducing the diameter of the ring or increasing the thickness of the crystal. As the relative thickness of the detector increases, the spatial resolution degrades increasingly as one moves from the center to the edge of the field of view.
+
+
+Different techniques can be used to deal with parallax error problem by estimating the DOI. Although DOI is very important for high-resolution preclinical imaging, it may not be that relevant in clinical scanners because its effect is small compared with the overall resolution of the scanner itself. However, in high-resolution brain imaging, the DOI may become more important.
+
+
+\section{Application Development}
+\subsection{Time Varying Imaging}
+The imaging theory described is that the object and the radiotracer distribution are stationary but in practice, the radiotracer distribution changes over the time, and also there is patient motion, which includes different type of motion such as cardiac motion, respiratory motion, and general motion. Its Depend on the degree of change during the imaging period, there is the potential to extract more information from the PET images if motion is included in the analysis or otherwise compensated for. If the radiotracer distribution changes over time but the patient are stationary, the imaging is called dynamic imaging. If the radiotracer distribution is constant but the patient moves in a regular pattern owing to respiratory or cardiac motion, then gated imaging methods can be used to suppress motion artifacts.
+
+\subsection{Acquiring dynamic images}
+Static 3D PET scans are a single, stationary image of the radiotracer distribution at a certain moment. Dynamic images used in drug development, cardiology, neurology, or oncology require an understanding the process of radiotracer distribution in order to expose the true biochemical process, and this information cannot be obtained from static imaging. The exchange that occurs with the simplicity of using static imaging is that the dynamic information related to the kinetics of the radiotracer is lost for further analysis.
+
+Dynamic imaging ,also called 4D imaging, or time-varying 3D, is a PET imaging mode in which acquire a series of 3D images are separately registered at different intervals and creating a time varying sequence, which is the 4D image or,3D plus time instead of acquiring a single, fixed-time 3D image and this  3D sequence can be analyzed  by time activity curves which tells about the radiotracer accumulation in a specific voxel or group of voxels and it can be studied by using kinetic modeling analysis for the radiotracer bio-distribution. The results is valuable which give the description of the about the physiological parameters regulating the radiotracer uptake. Examples of applying this technique include imaging cardiac perfusion using 13N-ammonia or 82Rb, monitoring the metabolism rate of glucose in tumors using 2-deoxy-2-[fluorine-18]fluoro-D-glucose (18FDG), assessing blood flow using oxygen-15 (15O), assessing cellular proliferation using 18FLT, and evaluating dopamine receptors using 11C-PHNO.
+
+in next update, i will discuss about reviewed practical limitations in dynamic 4D PET imaging.
+\end{document}
